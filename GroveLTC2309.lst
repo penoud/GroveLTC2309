@@ -1,0 +1,134 @@
+eeschema (25-Oct-2014 BZR 4029)-stable  >> Creation date: dim 28 jun 2015 19:07:19 CEST
+#Cmp ( order = Reference ) (with SubCmp)
+| C1         100nF       
+| C2         100nF       
+| C3         100nF       
+| C4         100nF       
+| C5         100nF       
+| C6         100nF       
+| C7         100nF       
+| C8         100nF       
+| C9         100nF       
+| C10        100nF       
+| C11        100nF       
+| C12        100nF       
+| C13        10uF        
+| C14        2.2uF       
+| C15        100nF       
+| C16        100nF       
+| P1         CONN_4_GROVE
+| P2         CONN_4_GROVE
+| P3         CONN_4_GROVE
+| P4         CONN_4_GROVE
+| P5         CONN_4_GROVE
+| P6         CONN_4_GROVE
+| P7         CONN_4_GROVE
+| P8         CONN_4_GROVE
+| P9         CONN_4_GROVE
+| R1         22K         
+| R2         22K         
+| R3         22K         
+| R4         22K         
+| R5         18K         
+| R6         22K         
+| R7         18K         
+| R8         22K         
+| R9         18K         
+| R10        22K         
+| R11        18K         
+| R12        22K         
+| R13        100K        
+| R14        100K        
+| R15        100K        
+| R16        100K        
+| R17        22K         
+| R18        22K         
+| R19        22K         
+| R20        22K         
+| R21        18K         
+| R22        22K         
+| R23        18K         
+| R24        22K         
+| R25        18K         
+| R26        22K         
+| R27        18K         
+| R28        22K         
+| U1A        LM324       
+| U1B        LM324       
+| U1C        LM324       
+| U1D        LM324       
+| U2         LTC2309     
+| U3A        LM324       
+| U3B        LM324       
+| U3C        LM324       
+| U3D        LM324       
+| U4         TCA9517A    
+#End Cmp
+
+#Cmp ( order = Value ) (with SubCmp)
+| 100nF        C1        Loc /Amplifier2/(X=179.070 mm, Y=44.450 mm)
+| 100nF        C5        Loc /Amplifier1/(X=179.070 mm, Y=44.450 mm)
+| 100nF        C2        Loc /Amplifier2/(X=179.070 mm, Y=80.010 mm)
+| 100nF        C6        Loc /Amplifier1/(X=179.070 mm, Y=80.010 mm)
+| 100nF        C3        Loc /Amplifier2/(X=179.070 mm, Y=114.300 mm)
+| 100nF        C7        Loc /Amplifier1/(X=179.070 mm, Y=114.300 mm)
+| 100nF        C4        Loc /Amplifier2/(X=179.070 mm, Y=149.860 mm)
+| 100nF        C8        Loc /Amplifier1/(X=179.070 mm, Y=149.860 mm)
+| 100nF        C10       Loc /ADC/(X=148.590 mm, Y=76.200 mm)
+| 100nF        C9        Loc /Amplifier2/(X=147.320 mm, Y=19.050 mm)
+| 100nF        C11       Loc /Amplifier1/(X=147.320 mm, Y=19.050 mm)
+| 100nF        C12       Loc /ADC/(X=161.290 mm, Y=111.760 mm)
+| 100nF        C15       Loc /TCA9517A/(X=146.050 mm, Y=90.170 mm)
+| 100nF        C16       Loc /TCA9517A/(X=160.020 mm, Y=90.170 mm)
+| 2.2uF        C14       Loc /ADC/(X=176.530 mm, Y=107.950 mm)
+| 10uF         C13       Loc /ADC/(X=168.910 mm, Y=111.760 mm)
+| CONN_4_GROVE P1        Loc /(X=22.860 mm, Y=44.450 mm)
+| CONN_4_GROVE P2        Loc /(X=22.860 mm, Y=60.960 mm)
+| CONN_4_GROVE P3        Loc /(X=22.860 mm, Y=77.470 mm)
+| CONN_4_GROVE P4        Loc /(X=22.860 mm, Y=95.250 mm)
+| CONN_4_GROVE P5        Loc /(X=22.860 mm, Y=113.030 mm)
+| CONN_4_GROVE P6        Loc /(X=22.860 mm, Y=132.080 mm)
+| CONN_4_GROVE P7        Loc /(X=22.860 mm, Y=147.320 mm)
+| CONN_4_GROVE P8        Loc /(X=22.860 mm, Y=163.830 mm)
+| CONN_4_GROVE P9        Loc /(X=278.130 mm, Y=87.630 mm)
+| 18K          R5        Loc /Amplifier2/(X=172.720 mm, Y=38.100 mm)
+| 18K          R21       Loc /Amplifier1/(X=172.720 mm, Y=38.100 mm)
+| 18K          R7        Loc /Amplifier2/(X=172.720 mm, Y=73.660 mm)
+| 18K          R23       Loc /Amplifier1/(X=172.720 mm, Y=73.660 mm)
+| 18K          R9        Loc /Amplifier2/(X=172.720 mm, Y=107.950 mm)
+| 18K          R25       Loc /Amplifier1/(X=172.720 mm, Y=107.950 mm)
+| 18K          R11       Loc /Amplifier2/(X=172.720 mm, Y=143.510 mm)
+| 18K          R27       Loc /Amplifier1/(X=172.720 mm, Y=143.510 mm)
+| 22K          R1        Loc /Amplifier2/(X=163.830 mm, Y=30.480 mm)
+| 22K          R17       Loc /Amplifier1/(X=163.830 mm, Y=30.480 mm)
+| 22K          R2        Loc /Amplifier2/(X=163.830 mm, Y=66.040 mm)
+| 22K          R18       Loc /Amplifier1/(X=163.830 mm, Y=66.040 mm)
+| 22K          R3        Loc /Amplifier2/(X=163.830 mm, Y=100.330 mm)
+| 22K          R19       Loc /Amplifier1/(X=163.830 mm, Y=100.330 mm)
+| 22K          R4        Loc /Amplifier2/(X=163.830 mm, Y=135.890 mm)
+| 22K          R20       Loc /Amplifier1/(X=163.830 mm, Y=135.890 mm)
+| 22K          R6        Loc /Amplifier2/(X=172.720 mm, Y=52.070 mm)
+| 22K          R22       Loc /Amplifier1/(X=172.720 mm, Y=52.070 mm)
+| 22K          R8        Loc /Amplifier2/(X=172.720 mm, Y=87.630 mm)
+| 22K          R24       Loc /Amplifier1/(X=172.720 mm, Y=87.630 mm)
+| 22K          R10       Loc /Amplifier2/(X=172.720 mm, Y=121.920 mm)
+| 22K          R26       Loc /Amplifier1/(X=172.720 mm, Y=121.920 mm)
+| 22K          R12       Loc /Amplifier2/(X=172.720 mm, Y=157.480 mm)
+| 22K          R28       Loc /Amplifier1/(X=172.720 mm, Y=157.480 mm)
+| 100K         R13       Loc /ADC/(X=245.110 mm, Y=138.430 mm)
+| 100K         R14       Loc /ADC/(X=245.110 mm, Y=156.210 mm)
+| 100K         R15       Loc /ADC/(X=262.890 mm, Y=138.430 mm)
+| 100K         R16       Loc /ADC/(X=262.890 mm, Y=156.210 mm)
+| LM324        U1A       Loc /Amplifier2/(X=142.240 mm, Y=30.480 mm)
+| LM324        U1B       Loc /Amplifier2/(X=142.240 mm, Y=66.040 mm)
+| LM324        U1C       Loc /Amplifier2/(X=142.240 mm, Y=100.330 mm)
+| LM324        U1D       Loc /Amplifier2/(X=142.240 mm, Y=135.890 mm)
+| LM324        U3A       Loc /Amplifier1/(X=142.240 mm, Y=30.480 mm)
+| LM324        U3B       Loc /Amplifier1/(X=142.240 mm, Y=66.040 mm)
+| LM324        U3C       Loc /Amplifier1/(X=142.240 mm, Y=100.330 mm)
+| LM324        U3D       Loc /Amplifier1/(X=142.240 mm, Y=135.890 mm)
+| TCA9517A     U4        Loc /TCA9517A/(X=153.670 mm, Y=107.950 mm)
+| LTC2309      U2        Loc /ADC/(X=130.810 mm, Y=85.090 mm)
+#End Cmp
+
+#End List
