@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = mer 03 jun 2015 22:16:32 CEST
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = dim 19 jui 2015 21:47:52 CEST
 
 BeginCmp
 TimeStamp = /556F0453/5570CA28;
@@ -78,66 +78,101 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /556F1386/558721FB;
+Reference = C12;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /556F1386/5587220A;
+Reference = C13;
+ValeurCmp = 10uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /556F1386/55872305;
+Reference = C14;
+ValeurCmp = 2.2uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55870924/5587180F;
+Reference = C15;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55870924/55871800;
+Reference = C16;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /557034B1;
 Reference = P1;
 ValeurCmp = CONN_4_GROVE;
-IdModule  = PIN_ARRAY_4x1;
+IdModule  = GROVE;
 EndCmp
 
 BeginCmp
 TimeStamp = /5570DC6E;
 Reference = P2;
 ValeurCmp = CONN_4_GROVE;
-IdModule  = PIN_ARRAY_4x1;
+IdModule  = GROVE;
 EndCmp
 
 BeginCmp
 TimeStamp = /5570DD2F;
 Reference = P3;
 ValeurCmp = CONN_4_GROVE;
-IdModule  = PIN_ARRAY_4x1;
+IdModule  = GROVE;
 EndCmp
 
 BeginCmp
 TimeStamp = /5570DD54;
 Reference = P4;
 ValeurCmp = CONN_4_GROVE;
-IdModule  = PIN_ARRAY_4x1;
+IdModule  = GROVE;
 EndCmp
 
 BeginCmp
 TimeStamp = /5570DF31;
 Reference = P5;
 ValeurCmp = CONN_4_GROVE;
-IdModule  = PIN_ARRAY_4x1;
+IdModule  = GROVE;
 EndCmp
 
 BeginCmp
 TimeStamp = /5570DF56;
 Reference = P6;
 ValeurCmp = CONN_4_GROVE;
-IdModule  = PIN_ARRAY_4x1;
+IdModule  = GROVE;
 EndCmp
 
 BeginCmp
 TimeStamp = /5570DF7B;
 Reference = P7;
 ValeurCmp = CONN_4_GROVE;
-IdModule  = PIN_ARRAY_4x1;
+IdModule  = GROVE;
 EndCmp
 
 BeginCmp
 TimeStamp = /5570DFA0;
 Reference = P8;
 ValeurCmp = CONN_4_GROVE;
-IdModule  = PIN_ARRAY_4x1;
+IdModule  = GROVE;
 EndCmp
 
 BeginCmp
-TimeStamp = /556B9120;
+TimeStamp = /55871A3A;
 Reference = P9;
 ValeurCmp = CONN_4_GROVE;
-IdModule  = PIN_ARRAY_4x1;
+IdModule  = GROVE;
 EndCmp
 
 BeginCmp
@@ -337,6 +372,34 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /55A9680A;
+Reference = R29;
+ValeurCmp = 4.7K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A96819;
+Reference = R30;
+ValeurCmp = 4.7K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55AC085B;
+Reference = R31;
+ValeurCmp = 4.7K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55AC0861;
+Reference = R32;
+ValeurCmp = 4.7K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /556F0453/5570D930;
 Reference = U1;
 ValeurCmp = LM324;
@@ -355,6 +418,13 @@ TimeStamp = /556F2EE0/5570D930;
 Reference = U3;
 ValeurCmp = LM324;
 IdModule  = SSOP14;
+EndCmp
+
+BeginCmp
+TimeStamp = /55870924/55871788;
+Reference = U4;
+ValeurCmp = TCA9517A;
+IdModule  = SSOP8;
 EndCmp
 
 EndListe
